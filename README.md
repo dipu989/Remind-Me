@@ -1,2 +1,2 @@
 # React-App
-App Made With React.js
+App Made With React Native
