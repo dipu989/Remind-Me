@@ -1,3 +1,2 @@
-# React-App
-App Made With React Native
-Will probably Get This done By Java
+# Remind-Me
+This android application is a reminding app. Work in progress!
