@@ -22,5 +22,10 @@ android:
  - extra-android-m2repository
  - sys-img-armeabi-v7a-android-17
 
-script:
-- "./gradlew clean build connectedCheck -PdisablePreDex --stacktrace"
+jobs:
+  include:
+    - stage: build
+      script: ./gradlew test
+
+    - stage: pre-prod
+script: ./gradlew assembleDebug
